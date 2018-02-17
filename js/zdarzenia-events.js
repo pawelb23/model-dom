@@ -40,3 +40,18 @@ function resize(e) { //przekazujemy zdarzenia jako parametr funkcji
 
 mainHeader.onmouseover = resize;
 mainHeader.onmouseout = resize;
+
+function klikHeader() {
+    console.log('kliknąłeś w header');
+}
+
+document.getElementsByTagName('header')[0].onclick = klikHeader;
+//wywołaj funckję na elemencie header
+
+function klikH1(e) {
+    e.stopPropagation(); //odkomentować, żeby pokazać zatrzymanie propaginacji
+    console.log('Kliknąłęś w h1');
+}
+
+document.getElementsByTagName('h1')[0].onclick = klikH1; //wywołaj
+// funkcję na elemencie H!
