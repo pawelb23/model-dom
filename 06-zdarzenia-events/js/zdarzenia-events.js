@@ -55,3 +55,4 @@ function klikH1(e) {
 
 document.getElementsByTagName('h1')[0].onclick = klikH1; //wywołaj
 // funkcję na elemencie H!
+console.log('czy działa');

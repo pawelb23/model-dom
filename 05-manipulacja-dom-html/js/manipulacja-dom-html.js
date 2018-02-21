@@ -19,4 +19,3 @@ console.log(link.classList); //nadpisujemy nazwę klasy w linku
 link.classList.add('nowa-nowa-klasa'); //dodajemy kolejną klasę
 
 mainHeader.style.backgroundColor = 'yellow';
-

@@ -1,6 +1,5 @@
 'use strict'; // trzeb użyć ctrl + s
 
-
 console.log (window);
 console.log (window.innerHeight);
 console.log (window.outerHeight);
@@ -28,3 +27,4 @@ console.log(pierwszyLinkPoSelektorze);
 var linkiPoSelektorze =
     document.querySelectorAll('.superlink');
 console.log(linkiPoSelektorze);
+
