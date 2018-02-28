@@ -1,4 +1,4 @@
-'use strict'; // --- co to jest
+'use strict';
 
 console.log (window);
 console.log (window.innerHeight);
