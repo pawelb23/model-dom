@@ -9,8 +9,8 @@ var secondLink = document.getElementsByTagName('a')[1]; //tworzymy zmienną z dr
 
 var thirdLink = document.getElementsByTagName('a')[2]; //tworzymy zmienną z trzecim linkiem
 
-function alarm(e) {//funcje do elementó HTML przypisujemy poniżej
-    e.preventDefault(); //zapobiegamy domyślenj akcji, tutaj bez tego po kliknięciu w Akapit Link2 od razu automatycznie kliknąłbysię Link 1 (ten niżej-czerwony) i zostalibyśmy przekierowani na stronę, która jest przypisana do tego linku czyli 'akademia 108'
+function alarm(e) {//funkcje do elementów HTML przypisujemy poniżej
+    e.preventDefault(); //zapobiegamy domyślenj akcji, tutaj bez tego po kliknięciu w Akapit Link2 od razu automatycznie kliknął by się Link 1 (ten niżej-czerwony) i zostali byśmy przekierowani na stronę, która jest przypisana do tego linku czyli 'akademia 108'
 
     console.log('kliknięto kolejny link');
     thirdLink.style.backgroundColor = 'red';
